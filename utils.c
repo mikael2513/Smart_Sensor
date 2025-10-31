@@ -84,7 +84,6 @@ void print_local_sensor_data() {
                local_data[i].temperature);
     }
     
-    // Show file info
     FILE *file = fopen(LOCAL_DATA_FILE, "r");
     if (file) {
         fseek(file, 0, SEEK_END);
