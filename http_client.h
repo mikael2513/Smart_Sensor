@@ -9,7 +9,6 @@ typedef struct {
     size_t body_length;
 } HttpResponse;
 
-// Function to send HTTP POST request
 HttpResponse* http_post(const char *host, int port, const char *path, 
                        const char *json_data);
 
